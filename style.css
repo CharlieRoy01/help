@@ -1,29 +1,32 @@
 body {
     font-family: Tahoma, sans-serif;
     font-size: 15px;
-    color:#121212;
-    line-height: 1.5;
+    background: #eee url("../myweb/img/images.png");
+
+
 }
 
 .mine-title {
-    color:#e62121;
+    color: #e62121;
     font-size: 30px;
-    text-transform:uppercase;
+    text-transform: uppercase;
     text-align: center;
 }
 
-.title  {
-    color: #2154e6;
-    font-size: 24px;
+.title {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
 }
 
-.small-title    {
+.small-title {
     color: #71aa1f;
     font-size: 21px;
     text-decoration: underline;
 }
 
-.list   {
+.list {
     font-weight: bold;
 }
 
@@ -31,8 +34,74 @@ body {
     font-style: oblique;
 
 }
+
 .place {
 
     font-family: Arial, Helvetica, sans-serif;
     text-align: right;
+}
+
+.table {
+    border-collapse: collapse;
+
+}
+
+.table th {
+    text-align: left;
+}
+
+.table th,
+.table td {
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+.table thead {
+    background-color: #eee;
+}
+
+.table tfoot {
+    background-color: #ccc;
+}
+
+/* Post */
+.post {
+
+    width: 700px;
+    height: 400px;
+    padding: 15px 25px;
+    margin: 0px auto 0px;
+
+    border: 1px solid #ddd;
+    background: #fff url("../myweb/img/photo_2025-04-10_21-44-38.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.post-title {
+    margin: 0 0 20px 0;
+    color: rgb(189, 138, 90);
+    -webkit-text-stroke: 1px rgb(70, 38, 9);
+
+}
+
+.post-text {
+    margin: 0 0 10px 0;
+    color: #fff;
+
+}
+
+/* gradiente */
+.gradient {
+    width: 700px;
+    height: 400px;
+
+    padding: 15px 25px;
+    margin: 25px auto 0px ;
+
+   /* background-image: linear-gradient(#fff 10%, #d5dcf0, #c6d1f0, #b4c3ec, #9db3f0, #8ba1dd,
+            #7f92c9, #567eeb, #4771e6, #4562b3, #30488b,
+            #243970, #1f2e57, #141f3d, #0f1831, #090f1f, #04060f);*/
+    background-image: radial-gradient(circle, #fff 10%, #d5dcf0, #c6d1f0, #b4c3ec, #9db3f0, #8ba1dd,
+            #7f92c9, #567eeb, #4771e6, #4562b3, #30488b,
+            #243970, #1f2e57, #141f3d, #0f1831, #090f1f, #04060f);
 }
